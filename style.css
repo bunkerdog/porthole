@@ -1,9 +1,28 @@
 body{
-    background-color: black;
-    
+    background-color: rgb(231, 171, 131);
+    border: solid 3px palevioletred;
 }
 h1{
+    
     font: 24px;
-    color: bisque;
+    color: #2b2044;
+    border: solid 4px ;
+    border-radius: 10px;
+    margin-bottom: 0;
+    background-color: fuchsia
 
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 2px rgb(134, 56, 134);
+    padding: 5px 5px;
+    background-color: violet;
+}
+li{
+    color: rgb(15, 15, 15);
+    list-style: none;
+    border: solid 2px;
+    border-radius: 10px;
+    padding: 10px 10px;
 }
